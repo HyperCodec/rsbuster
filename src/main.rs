@@ -51,7 +51,7 @@ struct Cli {
     #[arg(
         short,
         long,
-        help = "The path to the list of status codes to ignore/not print"
+        help = "The path to the list of status codes to ignore/not print. If not provided, it only excludes 404"
     )]
     ignore_status: Option<PathBuf>,
 
