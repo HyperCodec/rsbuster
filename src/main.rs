@@ -73,7 +73,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let level = logger.filter();
     let multi = MultiProgress::new();
 
-    LogWrapper::new(multi.clone(), logger).try_init().unwrap();
+    LogWrapper::new(multi.clone(), logger).try_init()?;
     log::set_max_level(level);
 
     let args = Cli::parse();
