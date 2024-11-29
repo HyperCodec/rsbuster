@@ -1,2 +1,0 @@
-https://example.com/index.html 200 OK
-https://example.com/ 200 OK
