@@ -39,7 +39,7 @@ impl Client {
 #[command(
     name = "rsbuster",
     author = "HyperCodec",
-    about = "Brute forces server directories"
+    about = "Fast directory finder"
 )]
 struct Cli {
     #[arg(short, long, help = "The target domain to bruteforce")]
