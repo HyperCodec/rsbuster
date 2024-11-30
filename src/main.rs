@@ -61,7 +61,7 @@ struct Cli {
     #[arg(
         long,
         help = "The max number of concurrent connections. Too many will cause requests to fail.",
-        default_value = "100"
+        default_value = "50"
     )]
     max_connections: usize,
 }
